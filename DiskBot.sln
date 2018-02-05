@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiskBotConsoleCore", "DiskBotConsoleCore\DiskBotConsoleCore.csproj", "{C783CAFE-7F6C-4B05-AF4D-1C8D480DE941}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiskBotConsoleNet", "DiskBotConsoleNet\DiskBotConsoleNet.csproj", "{9EDD2DCC-C5F4-440B-8AE7-2C03DE1F7AE4}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C783CAFE-7F6C-4B05-AF4D-1C8D480DE941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C783CAFE-7F6C-4B05-AF4D-1C8D480DE941}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C783CAFE-7F6C-4B05-AF4D-1C8D480DE941}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C783CAFE-7F6C-4B05-AF4D-1C8D480DE941}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EDD2DCC-C5F4-440B-8AE7-2C03DE1F7AE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EDD2DCC-C5F4-440B-8AE7-2C03DE1F7AE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EDD2DCC-C5F4-440B-8AE7-2C03DE1F7AE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EDD2DCC-C5F4-440B-8AE7-2C03DE1F7AE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
